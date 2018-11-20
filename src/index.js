@@ -1,8 +1,10 @@
-const onigiri = sake => {
-  if (sake === true) {
+const sakeonigiri = Boolean => {
+  if (Boolean === true) {
     return "鮭おにぎりウメェ〜！";
   } //elseはいらない！
   return "違う具だった〜";
 };
-console.log(onigiri(true));
-console.log(onigiri("紀州梅"));
+console.log(sakeonigiri(true));
+console.log(sakeonigiri("紀州梅"));
+
+//JSおじさんメモのコピー：onigiriより、sakeonigiriにした方がいい
