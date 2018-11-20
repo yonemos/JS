@@ -1,0 +1,15 @@
+{
+  "name": "js006",
+  "version": "1.0.0",
+  "description": "宿題\n関数内で if 文 を使う。\nif 文 の条件判断は true かそれ以外かを判断する。\nif 文 の条件判断がどうなるにせよ、必ず return で何かを返す関数とする。\n",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
